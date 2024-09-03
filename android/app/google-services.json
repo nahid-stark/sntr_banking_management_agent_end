@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "636968958613",
+    "project_id": "sntr-mobile-banking-central",
+    "storage_bucket": "sntr-mobile-banking-central.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636968958613:android:9cf23ceed8bb64b1faf99c",
+        "android_client_info": {
+          "package_name": "com.example.sntr_mobile_banking_user_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxSKiQZzz4_hWD4N7-htRFMbdWtwOQnvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636968958613:android:6e2fcdef0a7a2f7cfaf99c",
+        "android_client_info": {
+          "package_name": "com.sntrbankinglimited.sntr_banking_management_agent_end"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxSKiQZzz4_hWD4N7-htRFMbdWtwOQnvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
