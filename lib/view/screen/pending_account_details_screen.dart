@@ -2,13 +2,20 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class PendingAccountDetailsScreen extends StatefulWidget {
-  const PendingAccountDetailsScreen({super.key});
+  const PendingAccountDetailsScreen({super.key, required this.userId});
+
+  final String userId;
 
   @override
   State<PendingAccountDetailsScreen> createState() => _PendingAccountDetailsScreenState();
 }
 
 class _PendingAccountDetailsScreenState extends State<PendingAccountDetailsScreen> {
+  @override
+  void initState() {
+    super.initState();
+
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
